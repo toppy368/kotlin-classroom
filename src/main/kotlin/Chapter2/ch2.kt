@@ -8,7 +8,7 @@ fun main() {
     var c: Char = 'f'
     var e: List<Int> = arrayListOf(1, 2, 5)
     var r: Array<Int> = arrayOf(1, 2, 3, 4, 5)
-    r[0] = 2
+    r[0] = 1
 
     //顯示以上變數
     println(a)
