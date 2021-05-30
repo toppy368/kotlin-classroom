@@ -7,6 +7,8 @@ fun main() {
     var b: Boolean = false
     var c: Char = 'f'
     var e: List<Int> = arrayListOf(1, 2, 5)
+    var r: Array<Int> = arrayOf(1, 2, 3, 4, 5)
+    r[0] = 2
 
     //顯示以上變數
     println(a)
@@ -14,5 +16,6 @@ fun main() {
     println(b)
     println(c)
     println(e)
+    println(r[3])
 
 }
